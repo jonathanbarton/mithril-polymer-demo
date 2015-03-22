@@ -1,0 +1,20 @@
+html, body {
+	height: 100%;
+}
+body {
+	font-family: 'RobotoDraft', sans-serif;
+	background-color: #eee;
+}
+body /deep/ core-toolbar {
+	background-color: #03a9f4;
+	color: #fff;
+}
+
+paper-item a {
+	text-decoration: none;
+	color: rgba(0,0,0,.8);
+}
+
+nav paper-item.selected {
+	background: #e1f5fe;
+}
